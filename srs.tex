@@ -1,0 +1,33 @@
+\documentclass[oneside, openany]{scrbook}
+
+\usepackage{import}
+\import{config/}{preamble.tex}		% package imports and configuration
+\import{config/}{definitions.tex} 	% latex command definitions
+
+\begin{document}
+
+\frontmatter
+\import{frontmatter/}{title-page.tex}
+\import{frontmatter/}{revision-history.tex}
+\import{frontmatter/}{todo.tex}
+\import{frontmatter/}{toc.tex} % table of contents
+
+\mainmatter
+\import{mainmatter/}{introduction.tex}
+\import{mainmatter/}{overall-description.tex}
+\import{mainmatter/}{external-interface-requirements.tex}
+\import{mainmatter/}{system-features.tex}
+\import{mainmatter/}{nonfunctional-requirements.tex}
+%\import{mainmatter/}{other-requirements.tex}
+
+\begin{appendices}
+	\import{mainmatter/appendices/}{mpq-spec.tex}
+	\import{mainmatter/appendices/}{animations.tex}
+	% using todo package instead of this appendix
+	% \import{mainmatter/appendices/}{tbd-list.tex}
+\end{appendices}
+
+\backmatter
+\import{backmatter/}{glossary.tex}
+
+\end{document}

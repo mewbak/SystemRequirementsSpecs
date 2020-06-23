@@ -1,0 +1,106 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% DONT BREAK THIS FILE INTO PIECES LIKE THE REST OF THE SECTIONS %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% This template illustrates organizing the functional requirements for the 
+% product by system features, the major services provided by the product. 
+% You may prefer to organize this section by use case, mode of operation, 
+% user class, object class, functional hierarchy, or combinations of these, 
+% whatever makes the most logical sense for your product.
+
+\chapter{Functional Requirements} \label{chap:systemfeatures}
+
+
+\section{Configuration Manager}
+TODO: Description of configuration manager. \todo{Add description for configuration manager}
+
+\requirementreset % reset the requirement counter
+\requirement{CONFIG}{
+	A default configuration will be generated and saved to disk if one is not 
+	found on the system.
+}
+
+\requirement{CONFIG}{
+	Invalid or malformed configuration files will not crash the game engine.
+}
+
+\requirement{CONFIG}{
+	Invalid or malformed configuration files will be reported and cause the 
+	engine to exit gracefully.
+}
+
+\requirement{CONFIG}{
+	Configuration options stored in the configuration file will be exposed via 
+	a settings GUI available for display and modification.
+}
+
+\requirement{CONFIG}{
+	Modifying the configuration options will through the GUI will immediately 
+	update the configuration file.
+}
+
+\unsure{Are there any more requirements needed for config manager?}
+
+
+
+
+
+
+
+\newpage
+\section{Asset Managemer}
+Description TODO
+
+\requirementreset % reset the requirement counter
+\requirement{ASSETS}{
+	The assets manager will load assets defined 
+}
+
+
+
+\subsection{MPQ Archive Manager}
+\paragraph{MPQ-1}
+\begin{indentpar}{1cm}
+Must be able to extract all files from the archive, regardless of the file type.
+\end{indentpar}
+
+
+
+\subsection{File Cache}
+
+\newpage
+\subsection{}
+
+\newpage
+\section{Audio Engine}
+
+\newpage
+\section{GUI Toolkit}
+
+\newpage
+\section{Input Backend}
+
+\newpage
+\section{Map Engine}
+
+\newpage
+\section{Rendering Backend}
+
+\newpage
+\section{Screen Manager}
+
+\newpage
+\section{Terminal \& Shell}
+
+\newpage
+\section{Scripting Language Interpretter}
+
+\newpage
+\section{Network Game Client}
+
+\newpage
+\section{Network Game Server}
+
+\newpage
+\section{Network Protocol}
+

@@ -1,0 +1,14 @@
+*.pdf
+*.sublime*
+.*.swp
+*.swp
+output/*
+aux/*
+*.glo
+*.aux
+*.ist
+*.log
+*.gz
+*.tdo
+*.toc
+*.out

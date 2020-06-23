@@ -1,0 +1,75 @@
+\usepackage[utf8]{inputenc}
+\usepackage{underscore}
+\usepackage[english]{babel}
+\usepackage{moresize}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{makecell}
+\usepackage{fancyhdr}
+
+\usepackage[bookmarks=true]{hyperref}
+\hypersetup{
+    bookmarks=false, % show bookmarks bar?
+    pdftitle={OpenDiablo2 System Requirements Specification}, % title
+    pdfauthor={Gravestench}, % author
+    pdfsubject={OpenDiablo2 System Requirements Specification}, % subject of the document
+    pdfkeywords={}, % list of keywords
+    colorlinks=true, % false: boxed links; true: colored links
+    linkcolor=black, % color of internal links
+    citecolor=black, % color of links to bibliography
+    filecolor=black, % color of file links
+    urlcolor=blue, % color of external links
+    % linktoc=all, % only page is linked
+    pdffitwindow=true,
+}
+
+\usepackage{graphics}
+\usepackage{graphicx}
+\graphicspath{ {./image/} }
+
+\usepackage[toc,page]{appendix}
+
+\usepackage[toc]{glossaries}
+\makeglossaries
+
+\date{}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes,automata,petri,positioning,calc}
+\tikzset{
+    place/.style={
+        circle,
+        thick,
+        draw=black,
+        fill=gray!50,
+        minimum size=6mm,
+    },
+        state/.style={
+        circle,
+        thick,
+        draw=blue!75,
+        fill=blue!20,
+        minimum size=6mm,
+    },
+}
+
+\usepackage{xargs}  
+\usepackage[colorinlistoftodos,prependcaption,textsize=tiny]{todonotes}
+
+% \usepackage[top=2cm, bottom=2cm, outer=0cm, inner=0cm]{geometry}
+\usepackage[pages=some]{background}
+
+\usepackage{pdfpages}
+
+% allow custom font
+\usepackage{fontspec}
+
+%%% to allow custom headings
+\usepackage{titlesec}
+% to change titles font family
+\usepackage{titling}
+
+\usepackage{soul}
+\usepackage{color}
+
+

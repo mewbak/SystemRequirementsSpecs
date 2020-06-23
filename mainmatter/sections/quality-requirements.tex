@@ -1,0 +1,25 @@
+\section{Software Quality Attributes} \label{sec:software_quality_attributes}
+
+% Specify any additional quality characteristics for the product that will be 
+% important to either the customers or the developers. Some to consider are: 
+% adaptability, availability, correctness, flexibility, interoperability, 
+% maintainability, portability, reliability, reusability, robustness, testability, 
+% and usability. Write these to be specific, quantitative, and verifiable when 
+% possible. At the least, clarify the relative preferences for various attributes, 
+% such as ease of use over ease of learning.
+
+\subsection{Modular Design}
+The various sub-systems of the OpenDiablo2 engine should be modular, eg. they
+implement an interface. This makes the engine flexible, and codebase robust,
+with the ability to adapt to future hardware and software environments not defined
+within this document.
+
+For example, regardless of the rendering backend implementation (Vulkan, OpenGL, 
+Metal), the rest of the engine sub-systems should be able to carry out their
+responsibilities, with little changes required outside of the rendering system.
+
+\subsection{Maintainability}
+TODO
+
+\subsection{Flexibility}
+TODO
