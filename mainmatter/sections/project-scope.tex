@@ -1,0 +1,25 @@
+\section{Project Scope} \label{sec:product_scope}
+
+% Identify the product whose software requirements are specified in this 
+% document, including the revision or release number. Describe the scope 
+% of the product that is covered by this SRS, particularly if this SRS 
+% describes only part of the system or a single subsystem.
+
+This document pertains only to OpenDiablo2 Game Engine v1.0 and below, which 
+is composed of the following sub-systems:
+
+TODO: this is just filler content, someone fixme
+\begin{enumerate}
+\item \textbf{Asset Manager} -- Responsible for decoding the various Diablo II file formats (MPQ, DS1, DT1, DCC, DC6, etc.)
+\item \textbf{Audio Engine} -- Responsible for playback of positional audio
+\item \textbf{Configuration Manager} -- Responsible for loading end-user configuration data and configuring the OpenDiablo2 game engine
+\item \textbf{Graphical User Interface (GUI) Toolkit} -- Responsible for drawing graphical components which the end-user interacts with (buttons, prompts, etc)
+\item \textbf{Input Backend} -- Handles user input from one or more input types (keyboard/mouse, gamepad, etc)
+\item \textbf{Map Engine} -- Generates maps from map presets or a randomized seed.
+\item \textbf{Rendering Backend} -- Manages the rendering of all on-screen graphics
+\item \textbf{Screen Manager} -- Responsible for transitioning between the various screens in the game (main menu, loading, character selection, gameplay, etc.)
+\item \textbf{Terminal \& Shell} -- An in-game shell for issuing commands directly to the OpenDiablo2 engine
+\item \textbf{Network Game Server} -- The game state manager, capable of updating one or many clients
+\item \textbf{Network Game Client} -- The game state rendering agent, capable of relaying commands to the game server and TODO...
+\item \textbf{Network Protocol} -- The message protocl by which the client and server communicate information
+\end{enumerate}

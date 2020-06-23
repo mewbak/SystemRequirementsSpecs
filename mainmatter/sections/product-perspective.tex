@@ -1,0 +1,26 @@
+\section{Perspective} \label{sec:product_perspective}
+
+% Describe the context and origin of the product being specified in this SRS.  
+% For example, state whether this product is a follow-on member of a product 
+% family, a replacement for certain existing systems, or a new, self-contained 
+% product. If the SRS defines a component of a larger system, relate the 
+% requirements of the larger system to the functionality of this software and 
+% identify interfaces between the two. A simple diagram that shows the major 
+% components of the overall system, subsystem interconnections, and external 
+% interfaces can be helpful.
+
+The original Diablo II, created by Blizzard Entertainment in June 2000, is
+becoming harder, if not impossible, to run on modern platforms. As of June 2020,
+Apple has officially removed the ability to execute Win32 binaries on MacOS
+Catalina. This is extremely troubling for end-users, as Blizzard continues to
+sell Diablo II.
+
+The OpenDiablo2 engine is a drop-in replacement for the original Diablo II game
+engine (the executable binaries, dll's, etc.). The OpenDiablo2 engine reads the
+game file data from MPQ files. MPQ files are Blizzard's proprietary file format,
+which stores all game assets used by the original Diablo II game engine. The
+main assumption of the project is that end-users own, and are in possession of,
+their own copies of the MPQ files.
+
+The OpenDiablo2 game engine will contain all single-player and Local Area Network 
+(LAN) multiplayer functionality present in Diablo II v1.14d.
